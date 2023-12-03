@@ -1,11 +1,41 @@
-h1 {
-  color: white;
+.conatiner-main {
+  display: flex;
 }
 
 .profile {
   height: 23rem;
   width: 23rem;
   border-radius: 50%;
-
   margin: 5rem;
+  border: 5px #2f1153 solid;
+}
+
+.title {
+  height: 3em;
+  display: flex;
+  flex-direction: column;
+
+  color: #FFF;
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  line-height: normal;
+}
+
+.title span {
+  width: 8rem;
+  margin-top: 10rem;
+  border: 5px #2f1153b7 solid;
+  border-radius: 15px;
+}
+
+.title h1 {
+  font-size: 3.25rem;
+  font-weight: 800;
+}
+
+.title h2 {
+  color: rgba(255, 255, 255, 0.699);
+  text-align: justify;
+  font-size: 1.25rem;
+  font-weight: 400;
 }
