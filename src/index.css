@@ -1,10 +1,14 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  height: 100vh;
+  width: 100vh;
+}
+
+body {
+  /* background: linear-gradient(180deg, #4f0c76 5%, #6329aa 47.92%, rgb(152, 74, 205) 100%); */
+  background-color: #2f1153;
+
 }
 
 code {
