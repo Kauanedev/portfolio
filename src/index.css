@@ -1,17 +1,13 @@
 * {
   margin: 0;
   padding: 0;
-  height: 100vh;
-  width: 100vh;
+  box-sizing: border-box;
 }
 
 body {
+  height: 100vh;
+  width: 100vh;
   /* background: linear-gradient(180deg, #4f0c76 5%, #6329aa 47.92%, rgb(152, 74, 205) 100%); */
-  background-color: #2f1153;
-
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  /* background-color: #2f1153; */
+  background: #090E16;
 }
