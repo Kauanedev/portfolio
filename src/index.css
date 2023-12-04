@@ -1,12 +1,9 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
   height: 100vh;
   width: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   /* background: linear-gradient(180deg, #4f0c76 5%, #6329aa 47.92%, rgb(152, 74, 205) 100%); */
   /* background-color: #2f1153; */
   background: #090E16;
