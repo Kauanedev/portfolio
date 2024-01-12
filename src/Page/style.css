@@ -1,4 +1,4 @@
-.container-main {
+.main {
   margin-left: 8rem;
   z-index: -1;
 }
@@ -17,66 +17,65 @@
   border: 5px #2f1153 solid;
 }
 
-.home {
-  height: 3em;
+.greetings {
+  height: 25rem;
   display: flex;
   flex-direction: column;
-
+  justify-content: center;
+  margin-top: 2rem;
+  gap: 1.2rem;
   color: #FFF;
-  font-family: 'Raleway', sans-serif;
   font-style: normal;
   line-height: normal;
 }
 
-.home span {
+.greetings span {
   width: 8rem;
-  margin-top: 10rem;
-  margin-bottom: -1.5rem;
   display: flex;
-  justify-content: center;
   padding: 2px;
   border: 3px #2f1153b7 solid;
   border-radius: 15px;
   background-color: #2f115362;
 }
 
-.home h1 {
+.greetings h1 {
   width: 25rem;
   font-size: 3.25rem;
   font-weight: 800;
 }
 
-.home h2 {
-  margin-top: -2REM;
+.greetings h2 {
+  /* margin-top: -2rem; */
   color: rgba(255, 255, 255, 0.699);
   text-align: justify;
   font-size: 1.25rem;
   font-weight: 400;
 }
 
+
 .github {
   margin-left: 1rem;
 }
 
-.about {
-  height: 3em;
-  display: flex;
-  flex-direction: column;
 
-  color: #FFF;
-  font-family: 'Raleway', sans-serif;
-  font-style: normal;
-  line-height: normal;
+
+@media (max-width: 1078px) {
+  .container-home {
+    flex-direction: column;
+  }
+
+  .greetings {
+    margin-top: -5rem;
+  }
 }
 
-.about span {
-  width: 8rem;
-  margin-top: 3rem;
-  display: flex;
-  justify-content: center;
-  padding: 2px;
-  border: 3px #2f115371 solid;
-  border-radius: 15px;
-  color: #FFF;
-  background-color: #2f11533f;
+::-webkit-scrollbar {
+  width: 10px;
+  scroll-margin: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #2f1153;
+  border-radius: 20px;
+  height: 30px;
 }

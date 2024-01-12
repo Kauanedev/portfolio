@@ -1,30 +1,32 @@
-import './style.css';
-import profile from '../Assets/profile.png'
+import github from '../Assets/github.svg';
+import linkedIn from '../Assets/linkedin.svg';
+import profile from '../Assets/profile.png';
+import About from '../Components/About/about';
 import Header from '../Components/Header/header';
-import Footer from '../Components/Footer/footer';
-import linkedIn from '../Assets/linkedin.svg'
-import github from '../Assets/github.svg'
+import Journey from '../Components/Journey/journey';
+import './style.css';
 
 function Main() {
+
   return (
     <>
       <Header />
 
-      <div className="container-main">
+      <div className="main">
         <div className='container-home'>
           <img src={profile}
             alt="profile"
             className="profile"
           />
 
-          <div className='home'>
-            <span id='home'>👋Hello World!</span>
+          <div className='greetings'>
+            <span>👋Hello, World!</span>
             <h1>Kauane Santos</h1>
-            <h2>~ FullStack Developer ~</h2>
+            <h2>~ Back-end Developer ~</h2>
 
             <address className='social'>
               <a href='https://www.linkedin.com/in/kauane-santos-dev/'
-                target='_blank'
+                target='_blank' rel="noreferrer"
               >
                 <img src={linkedIn}
                   alt='LinkedIn'
@@ -33,7 +35,7 @@ function Main() {
               </a>
 
               <a href='https://github.com/Kauanedev'
-                target='_blank'
+                target='_blank' rel='noreferrer'
               >
                 <img src={github}
                   alt='Github'
@@ -42,12 +44,13 @@ function Main() {
               </a>
             </address>
           </div>
-        </div>
 
-        <div className='about'>
-          <span id='about'>🧐About Me</span>
 
         </div>
+
+        <About />
+        <Journey />
+
       </div >
 
     </>
