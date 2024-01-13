@@ -1,0 +1,51 @@
+.container-projects {
+    margin-top: 2rem;
+    border-top: 1px #2f1153c4 solid;
+}
+
+.container-projects:first-child {
+    width: 8rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    padding: 3px;
+    border: 3px #2f115371 solid;
+    border-radius: 15px;
+    color: #FFF;
+    background-color: #2f11533f;
+}
+
+a {
+    text-decoration: none;
+}
+
+.projects {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.project-card {
+    width: 25rem;
+    height: 28rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 2px solid rgba(123, 74, 226, 0.5);
+    border-radius: 8px;
+}
+
+.project-card img {
+    height: 10rem;
+    flex-shrink: 0;
+    background-size: cover;
+}
+
+.project-card h6 {
+    color: #fff;
+    text-align: center;
+}
+
+.project1 {
+    background-image: url('../../Assets/dindin-project.svg');
+}
