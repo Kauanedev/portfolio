@@ -6,7 +6,7 @@
 }
 
 
-.journey span {
+.container-journey span {
     width: 8rem;
     margin-top: 3rem;
     margin-bottom: 2rem;
@@ -20,12 +20,12 @@
 
 }
 
-.journey-boxes {
+.journey {
     display: flex;
     justify-content: space-evenly;
 }
 
-.journey-boxes div {
+.journey div {
     width: 25rem;
     display: flex;
     flex-direction: column;
@@ -35,20 +35,21 @@
     background-color: #7723de03;
 }
 
-.journey-boxes :last-child span {
+
+.journey span {
     width: 10rem;
 }
 
-.journey-boxes p {
+.journey p {
     margin-top: 1.2rem;
 }
 
 @media (max-width: 1200px) {
-    .journey-boxes {
+    .journey {
         flex-direction: column;
     }
 
-    .journey-boxes div {
+    .journey div {
         margin-top: 3rem;
     }
 }
