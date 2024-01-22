@@ -1,0 +1,27 @@
+.container-footer {
+    height: 3rem;
+    width: 100%;
+    color: #fff;
+    background-color: #2a1950;
+}
+
+.footer {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer img {
+    align-items: center;
+    height: 1rem;
+}
+
+.footer a {
+    color: #fff;
+}
+
+.footer a:hover {
+    cursor: pointer;
+    color: rgb(93, 24, 157);
+}
