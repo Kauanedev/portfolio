@@ -1,7 +1,16 @@
 .container-about {
+    width: 80vw;
+    height: 20rem;
     display: flex;
     flex-direction: column;
     color: #FFF;
+    border-top: 1px #2f1153c4 solid;
+    border-bottom: 1px #2f1153c4 solid;
+    margin-left: 5rem;
+}
+
+.about {
+    width: fit-content;
 }
 
 .about span {
@@ -13,7 +22,8 @@
     padding: 3px;
     border: 3px #2f115371 solid;
     border-radius: 15px;
-    color: #FFF;
+    font-weight: 700;
+    color: #7B4AE2;
     background-color: #2f11533f;
 }
 
@@ -21,7 +31,7 @@
     color: rgba(255, 255, 255, 0.705);
     font-size: 1.125rem;
     font-weight: 400;
-    line-height: 1.5rem;
+    line-height: 2rem;
 
 }
 
@@ -30,5 +40,6 @@
 }
 
 .about a:hover {
+    cursor: pointer;
     color: rgb(93, 24, 157);
 }
