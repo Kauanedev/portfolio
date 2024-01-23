@@ -1,0 +1,70 @@
+.container-contact {
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.container-contact h1 {
+    text-align: center;
+    padding: 1rem;
+    color: #ffffffc1;
+    background-color: #261648;
+    border-radius: 5px;
+}
+
+.container-contact h2 {
+    color: #ffffff95;
+}
+
+img {
+    height: 1.5rem;
+
+}
+
+.contact {
+    width: 60rem;
+    height: 100%;
+    margin: 5rem 0 5rem 0;
+    padding: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid #7a4ae21d;
+    border-radius: 5px;
+    gap: 2rem;
+}
+
+.email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+a {
+    color: #fff;
+    cursor: pointer;
+}
+
+a:hover {
+    color: #7B4AE2;
+}
+
+.socials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.github,
+.linkedin {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
