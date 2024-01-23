@@ -11,7 +11,7 @@ function Journey2() {
                 <>
                     {journeyInfo.map((info) => {
                         return (
-                            <div className='journey-box' key={info.id}>
+                            <div key={info.id}>
                                 <h2>{info.title}</h2>
                                 <p>{info.description}</p>
                                 <span>{info.date}</span>
