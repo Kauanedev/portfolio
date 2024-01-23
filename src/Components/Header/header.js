@@ -6,7 +6,7 @@ function Header() {
     return (
         <div className="container-header">
             <navbar>
-                <a className='logo' href='http://localhost:3000/'>
+                <a className='logo' href='https://kauane-santos.netlify.app/'>
                     <h1>ks</h1>
                 </a>
 
