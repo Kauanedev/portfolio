@@ -30,5 +30,5 @@
 </p>
 
 <p id='see'>
-  Check out my portfolio by clicking here --> <a href="https://kauane-santos.netlify.app/" target="_blank">portfolio</a>
+  Check out my portfolio by clicking here --> <<a href='https://kauane-santos.netlify.app/' target='_blank' rel="noreferrer">>portfolio</a>
 </p>
