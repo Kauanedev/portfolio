@@ -1,19 +1,23 @@
-import github from '../Assets/github.svg';
-import linkedIn from '../Assets/linkedin.svg';
+import github from '../Assets/github-icon.svg';
+import linkedIn from '../Assets/linkedin-icon.svg';
 import profile from '../Assets/profile.png';
 import About from '../Components/About/about';
+import Contact from '../Components/Contact/contact';
+import Footer from '../Components/Footer/footer';
 import Header from '../Components/Header/header';
 import Journey from '../Components/Journey/journey';
+import Projects from '../Components/Projects/projects';
+import Tecnologies from '../Components/Tecnologies/tecnologies';
 import './style.css';
 
 function Main() {
 
   return (
     <>
-      <Header />
 
       <div className="main">
-        <div className='container-home'>
+        <Header />
+        <div className='container-home' id='home'>
           <img src={profile}
             alt="profile"
             className="profile"
@@ -22,7 +26,7 @@ function Main() {
           <div className='greetings'>
             <span>👋Hello, World!</span>
             <h1>Kauane Santos</h1>
-            <h2>~ Back-end Developer ~</h2>
+            <h2>~ FullStack Developer ~</h2>
 
             <address className='social'>
               <a href='https://www.linkedin.com/in/kauane-santos-dev/'
@@ -49,8 +53,11 @@ function Main() {
         </div>
 
         <About />
+        <Projects />
         <Journey />
-
+        <Tecnologies />
+        <Contact />
+        <Footer />
       </div >
 
     </>

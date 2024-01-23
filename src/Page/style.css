@@ -1,12 +1,8 @@
-.main {
-  margin-left: 8rem;
-  z-index: -1;
-}
-
 .container-home {
-  width: 80vw;
   display: flex;
-  border-bottom: 1px #2f1153c4 solid;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 5rem 0 3rem 0rem;
 }
 
 .profile {
@@ -32,10 +28,11 @@
 .greetings span {
   width: 8rem;
   display: flex;
-  padding: 2px;
-  border: 3px #2f1153b7 solid;
+  justify-content: center;
+  padding: 3px;
+  border: 3px #2f115371 solid;
   border-radius: 15px;
-  background-color: #2f115362;
+  background-color: #2f11533f;
 }
 
 .greetings h1 {
@@ -45,27 +42,33 @@
 }
 
 .greetings h2 {
-  /* margin-top: -2rem; */
   color: rgba(255, 255, 255, 0.699);
   text-align: justify;
   font-size: 1.25rem;
   font-weight: 400;
 }
 
-
-.github {
-  margin-left: 1rem;
+address {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
 }
 
-
+address img {
+  height: 2rem;
+}
 
 @media (max-width: 1078px) {
-  .container-home {
-    flex-direction: column;
+  .profile {
+    margin: 5rem 0 0 2rem;
   }
 
   .greetings {
-    margin-top: -5rem;
+    gap: 1.2rem;
+    color: #FFF;
+    font-style: normal;
+    line-height: normal;
+    margin: -5rem 0 0 2rem;
   }
 }
 
