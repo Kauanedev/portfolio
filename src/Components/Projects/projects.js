@@ -18,7 +18,7 @@ function Projects() {
                                     <h3>{project.title}</h3>
                                     <img src={project.id === 1 ? dindin : project.id === 2 ? academypay : player} alt={project.title} />
                                     <p>{project.description}</p>
-                                    <h6>{project.tecnologies}</h6>
+                                    <h5>{project.tecnologies}</h5>
 
                                 </div>
                             </a>
