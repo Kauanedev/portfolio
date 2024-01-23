@@ -1,15 +1,15 @@
 import css from '../../Assets/css-icon.svg'
-import postgresql from '../../Assets/postgresql-icon.svg'
 import git from '../../Assets/git-icon.svg'
 import github from '../../Assets/github-icon2.svg'
 import html from '../../Assets/html5-icon.svg'
 import insomnia from '../../Assets/insomnia-icon.svg'
 import js from '../../Assets/javascript-icon.svg'
-import python from '../../Assets/python-icon.svg'
 import nodejs from '../../Assets/nodejs-icon.svg'
+import npm from '../../Assets/npm-icon.svg'
+import postgresql from '../../Assets/postgresql-icon.svg'
+import python from '../../Assets/python-icon.svg'
 import react from '../../Assets/react-icon.svg'
 import typescript from '../../Assets/typeScript-icon.svg'
-import npm from '../../Assets/npm-icon.svg'
 import './styles.css'
 
 export default function Tecnologies() {
