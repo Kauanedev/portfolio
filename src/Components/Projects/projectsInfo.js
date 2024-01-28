@@ -23,7 +23,35 @@ const projectsInfo = [
         URL: "https://cubosplayer.netlify.app/",
         tecnologies: 'HTML, CSS, React.js'
 
+    },
+    {
+        id: 4,
+        title: "Under Construction",
+        className: 'project4',
+        description: 'Please wait for the next updates',
+        URL: "https://kauane-santos.netlify.app/",
+        tecnologies: ''
+
+    },
+    {
+        id: 5,
+        title: "Password Generator",
+        className: 'project5',
+        description: "With customizable generation, allowing adjustments to length and type of characters. This project is an intuitive interface that ensures ease of use, generating passwords instantly.",
+        URL: "https://password-generator-bykauane.netlify.app/",
+        tecnologies: 'HTML, CSS, javascript, React.js'
+
+    },
+    {
+        id: 6,
+        title: "Under Construction",
+        className: 'project6',
+        description: 'Please wait for the next updates',
+        URL: "https://kauane-santos.netlify.app/",
+        tecnologies: ''
+
     }
+
 ]
 
 export default projectsInfo
