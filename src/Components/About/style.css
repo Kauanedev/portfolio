@@ -39,3 +39,17 @@
     cursor: pointer;
     color: rgb(93, 24, 157);
 }
+
+@media(max-width: 600px) {
+    .container-about {
+        height: 30rem;
+        margin-left: 2rem;
+    }
+}
+
+@media(max-width: 570px) {
+    .container-about {
+        height: 40rem;
+        margin-left: 2rem;
+    }
+}

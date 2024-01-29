@@ -65,3 +65,13 @@ a {
     color: #fff;
     text-align: center;
 }
+
+@media(max-width: 600px) {
+    .container-projects {
+        margin-left: 2rem;
+    }
+
+    .projects {
+        margin: 0 2rem 0 0;
+    }
+}

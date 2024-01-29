@@ -6,7 +6,7 @@
     z-index: 1;
 }
 
-navbar {
+header {
     height: 4rem;
     width: 100vw;
     display: flex;

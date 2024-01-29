@@ -28,3 +28,13 @@
 .tecnologies img {
     height: 4rem;
 }
+
+@media(max-width: 600px) {
+    .container-tecnologies {
+        margin-left: 2rem;
+    }
+
+    .tecnologies {
+        margin: 0 2rem 0 0;
+    }
+}

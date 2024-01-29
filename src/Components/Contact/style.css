@@ -17,6 +17,7 @@
 
 .container-contact h2 {
     color: #ffffff95;
+    text-align: center;
 }
 
 .contact img {
@@ -26,7 +27,6 @@
 
 .contact {
     width: 60%;
-    height: 100%;
     margin: 5rem 0 5rem 0;
     padding: 5rem;
     display: flex;
@@ -67,4 +67,10 @@ a:hover {
     display: flex;
     align-items: center;
     gap: 0.3rem;
+}
+
+@media(max-width: 600px) {
+    .contact {
+        width: 50%;
+    }
 }

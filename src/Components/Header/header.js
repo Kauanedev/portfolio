@@ -5,7 +5,7 @@ import './style.css';
 function Header() {
     return (
         <div className="container-header">
-            <navbar>
+            <header>
                 <a className='logo' href='https://kauane-santos.netlify.app/'>
                     <h1>ks</h1>
                 </a>
@@ -21,7 +21,7 @@ function Header() {
                     </ul>
                 </div>
 
-            </navbar>
+            </header>
         </div >
     );
 }

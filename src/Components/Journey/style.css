@@ -52,3 +52,27 @@
         margin-top: 3rem;
     }
 }
+
+@media(max-width: 830px) {
+    .container-journey {
+        margin-left: 2rem;
+    }
+
+    .journey {
+        margin: 0 -2rem 0 -2rem;
+    }
+}
+
+@media(max-width: 550px) {
+    .journey div {
+        width: 21rem;
+        font-size: 110%;
+    }
+}
+
+@media(max-width: 380px) {
+    .journey div {
+        width: 18rem;
+        margin: 0 2rem 0 0;
+    }
+}
