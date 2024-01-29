@@ -16,7 +16,7 @@ function Main() {
     <>
 
       <div className="main">
-        {/* <Header /> */}
+        <Header />
         <div className='container-home' id='home'>
           <img src={profile}
             alt="profile"
