@@ -17,13 +17,13 @@ const projectsInfo = [
     },
     {
         id: 3,
-        title: "Cubos Player",
-        className: 'project3',
-        description: "Interactive music playing experience, allowing users to enjoy four distinct tracks and freely navigate between them",
-        URL: "https://cubosplayer.netlify.app/",
-        tecnologies: 'HTML, CSS, React.js'
-
+        title: "Calculator",
+        className: 'project6',
+        description: 'Online calculator that allows you to perform basic mathematical operations such as addition, subtraction, multiplication, division and percentage as well as including a built-in PI value.',
+        URL: "https://calculator-by-kauane.netlify.app/",
+        tecnologies: 'HTML, CSS, javascript, React.js'
     },
+
     {
         id: 4,
         title: "Under Construction",
@@ -40,17 +40,27 @@ const projectsInfo = [
         description: "With customizable generation, allowing adjustments to length and type of characters. This project is an intuitive interface that ensures ease of use, generating passwords instantly.",
         URL: "https://password-generator-bykauane.netlify.app/",
         tecnologies: 'HTML, CSS, javascript, React.js'
-
     },
+
     {
         id: 6,
+        title: "Cubos Player",
+        className: 'project3',
+        description: "Interactive music playing experience, allowing users to enjoy four distinct tracks and freely navigate between them",
+        URL: "https://cubosplayer.netlify.app/",
+        tecnologies: 'HTML, CSS, React.js'
+
+    },
+
+    {
+        id: 7,
         title: "Under Construction",
-        className: 'project6',
+        className: 'project4',
         description: 'Please wait for the next updates',
         URL: "https://kauane-santos.netlify.app/",
         tecnologies: ''
 
-    }
+    },
 
 ]
 
