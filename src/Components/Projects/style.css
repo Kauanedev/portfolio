@@ -45,7 +45,6 @@ a {
 .project-card:hover {
     background-color: rgba(92, 30, 225, 0.211);
     cursor: pointer;
-    zoom: 101%;
 }
 
 
