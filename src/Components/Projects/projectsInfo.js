@@ -44,11 +44,11 @@ const projectsInfo = [
 
     {
         id: 6,
-        title: "Cubos Player",
+        title: "Marca Já",
         className: 'project3',
-        description: "Interactive music playing experience, allowing users to enjoy four distinct tracks and freely navigate between them",
-        URL: "https://cubosplayer.netlify.app/",
-        tecnologies: 'HTML, CSS, React.js'
+        description: "API for booking medical appointments, with endpoints that allow the customer to book the day/time, as well as provide their contact details (full name, contact number); and endpoints that allow the company/clinic employee to control these appointments, being able to edit, delete, etc.",
+        URL: "https://github.com/Marca-Ja/marca-jah",
+        tecnologies: 'NestJs, MySQL, PrismaORM, Docker'
 
     },
 
